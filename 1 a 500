@@ -1,0 +1,13 @@
+public class UmAQuinhentos
+{
+    public static void main(String Args[])
+    {  
+       int x=0,y=1,aux;
+      for(int c=0; c<500; c++)
+          {
+                aux=x+y;
+                x=aux;
+                System.out.println(aux);
+          }
+    }
+}
